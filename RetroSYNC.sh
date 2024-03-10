@@ -69,7 +69,7 @@ CSV_FILE="~/gamesaves/system/PSX_titles.csv"
 
 # Define the local file path where you want to check for the file's existence
 csv_file_psx="~/gamesaves/system/PSX_titles.csv"
-psx_csv_download="https://raw.githubusercontent.com/username/repo/branch/path/to/file/filename.ext"
+psx_csv_download="https://github.com/fastpattern/RetroSYNC/blob/main/PSX_titles.csv"
 
 # Check if the file exists
 if [ ! -f "$csv_file_psx" ]; then
