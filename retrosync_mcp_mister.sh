@@ -140,7 +140,7 @@ done < "$CSV_FILE"
 ###################################################################################################################################################
 copy_and_rename_mcp1 () {
     local source_path="$MCP1_DOWNLOAD_LOCAL_PATH"
-    local target_path="$MCP1_REONCILE_PATH"
+    local target_path="$MCP1_RECONCILE_PATH"
     echo "Searching for .mcd files in $source_path..."
 
     find "$source_path" -type f -name "*.mcd" | while read -r file_path; do
